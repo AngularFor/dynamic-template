@@ -3,8 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'simple-example',
-    loadChildren: './simple-example/simple-example.module#SimpleExampleModule',
+    path: 'form-generator',
+    loadChildren: './form-generator/form-generator.module#FormGeneratorModule',
+  },
+  {
+    path: 'form-viewer',
+    loadChildren: './form-viewer/form-viewer.module#FormViewerModule',
   }
 ]
 
